@@ -1,0 +1,10 @@
+{
+    "name": "Jader",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "Jader.xml",
+    "author": "AndrewSong6-0",
+    "minimum_firmware_version": 42
+}
