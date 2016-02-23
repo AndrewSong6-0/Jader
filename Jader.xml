@@ -1,30 +1,28 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="132" inline="false" x="-5" y="-23">
+  <block type="controls_if" id="132" inline="false" x="188" y="-93">
     <value name="IF0">
       <block type="sensor_button" id="119">
         <field name="OBJECT">UP</field>
       </block>
     </value>
-    <statement name="DO0">
-      <block type="controls_repeat" id="1" inline="true">
-        <value name="TIMES">
-          <block type="math_number" id="2">
-            <field name="NUM">80000</field>
+  </block>
+  <block type="controls_repeat" id="1" inline="true" x="51" y="-28">
+    <value name="TIMES">
+      <block type="math_number" id="2">
+        <field name="NUM">80000</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="3"></block>
+    </statement>
+    <next>
+      <block type="robot_delay" id="4" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="5">
+            <field name="NUM">100</field>
           </block>
         </value>
-        <statement name="DO">
-          <block type="movement_forward" id="3"></block>
-        </statement>
-        <next>
-          <block type="robot_delay" id="4" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="5">
-                <field name="NUM">100</field>
-              </block>
-            </value>
-          </block>
-        </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
