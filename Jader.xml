@@ -16,17 +16,17 @@
           </block>
         </value>
         <next>
-          <block type="controls_repeat" id="151" inline="true">
+          <block type="controls_repeat" id="6" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="158">
+              <block type="math_number" id="7">
                 <field name="NUM">8000</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_left" id="168"></block>
+              <block type="movement_left" id="8"></block>
             </statement>
             <next>
-              <block type="movement_stop" id="378"></block>
+              <block type="movement_stop" id="9"></block>
             </next>
           </block>
         </next>
