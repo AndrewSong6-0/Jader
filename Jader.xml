@@ -1,11 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="132" inline="false" x="188" y="-93">
-    <value name="IF0">
-      <block type="sensor_button" id="119">
-        <field name="OBJECT">UP</field>
-      </block>
-    </value>
-  </block>
   <block type="controls_repeat" id="1" inline="true" x="51" y="-28">
     <value name="TIMES">
       <block type="math_number" id="2">
